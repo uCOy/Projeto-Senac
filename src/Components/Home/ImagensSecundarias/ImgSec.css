@@ -7,8 +7,8 @@
 }
 
 .image-sec{   
-    width:100%;
-    max-width: 593px;
+    width: 1440px;
+    max-width: 100%;
 }
 
 .image-distance{
@@ -25,7 +25,6 @@
     padding-right: 80px;
     background-color: rgb(242,242,242);
 }
-
 
 @media (max-width:712px){ /* --------------------------------------- 712px*/
 

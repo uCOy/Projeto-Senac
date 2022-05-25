@@ -14,7 +14,7 @@ const CorpoSofa = ({ CorpoSofa }) => {
         <h1 class="titulo-sofas">Sofás</h1>
       </div>
       <div class="sofa-retratil">
-        <h1>Sofá Retrátil</h1>
+        <h1 class="titulo-sofas">Sofá Retrátil</h1>
       </div>
       <section class="flex">
         <figure>
@@ -43,7 +43,7 @@ const CorpoSofa = ({ CorpoSofa }) => {
         </figure>
         </section>
         <div class="sofa-2-3">
-          <h1>Sofá 2-3 lugares</h1>
+          <h1 class="titulo-sofas">Sofá 2-3 lugares</h1>
         </div>
         <section class="flex">
           <figure>
@@ -72,7 +72,7 @@ const CorpoSofa = ({ CorpoSofa }) => {
           </figure>
           </section>
           <div class="sofa-canto-alemao">
-            <h1>Sofá Canto Alemão</h1>
+            <h1 class="titulo-sofas">Sofá Canto Alemão</h1>
           </div>
           <section class="flex">
             <figure>
@@ -101,7 +101,7 @@ const CorpoSofa = ({ CorpoSofa }) => {
             </figure>
             </section>
             <div class="sofa-chaise">
-              <h1>Sofá Chaise</h1>
+              <h1 class="titulo-sofas">Sofá Chaise</h1>
             </div>
             <section class="flex">
               <figure>
