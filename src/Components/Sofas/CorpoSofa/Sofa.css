@@ -20,6 +20,17 @@
   display: block;
 }
 
+.titulo-sofa {
+  font-family: 'Raleway';
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  text-transform: inherit;
+  padding-top: 35px;
+  margin-bottom: 0px;
+  background-color: rgb(242,242,242);
+  color: rgba(82, 76, 76, 0.836);
+}
 .titulo-sofas {
   font-family: 'Raleway';
   display: flex;

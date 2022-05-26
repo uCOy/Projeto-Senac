@@ -11,7 +11,7 @@ const CorpoSofa = ({ CorpoSofa }) => {
   return (
     <section className="cor-fundo">
       <div>
-        <h1 class="titulo-sofas">Sofás</h1>
+        <h1 class="titulo-sofa">Sofás</h1>
       </div>
       <div class="sofa-retratil">
         <h1 class="titulo-sofas">Sofá Retrátil</h1>
@@ -72,7 +72,7 @@ const CorpoSofa = ({ CorpoSofa }) => {
           </figure>
           </section>
           <div class="sofa-canto-alemao">
-            <h1 class="titulo-sofas">Sofá Canto Alemão</h1>
+            <h1 class="titulo-sofas">Sofá de Canto</h1>
           </div>
           <section class="flex">
             <figure>

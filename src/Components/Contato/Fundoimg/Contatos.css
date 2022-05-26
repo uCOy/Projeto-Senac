@@ -16,9 +16,10 @@
     font-size: 36px;
     text-transform: inherit;
     padding: 35px 0 0;
-    color: rgb(0, 0, 0);
+    color: rgba(82, 76, 76, 0.836);
     animation: text 2s 1;
   }
+
   @keyframes text {
     0% {
       color: white;
@@ -37,7 +38,7 @@
     list-style: none;
     text-align: center;
     font-style: italic;
-    color: rgb(0, 0, 0);
+    color: rgba(82, 76, 76, 0.836);
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
     animation: text1 2s 1;

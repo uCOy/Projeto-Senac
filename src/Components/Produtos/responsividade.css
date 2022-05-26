@@ -1,6 +1,29 @@
 /* AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
 /* --------------------------------------------------------- Responsividade do Menu */
 
+.titulo-produto {
+    font-family: 'Raleway';
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    text-transform: inherit;
+    padding-top: 35px;
+    margin-bottom: 0px;
+    background-color: rgb(242,242,242);
+    color: rgba(82, 76, 76, 0.836);
+  }
+  .titulo-produtos {
+    font-family: 'Raleway';
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    text-transform: inherit;
+    padding-top: 35px;
+    margin-bottom: 35px;
+    background-color: rgb(242,242,242);
+    color: rgba(82, 76, 76, 0.836);
+  }
+
 @media (max-width: 2560px)  {
     .flex {
         margin-right: 37px;
