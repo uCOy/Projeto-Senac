@@ -5,13 +5,13 @@ import Test from './Produtos-test';
 function Teste () {
 
 
-    const [slider, setSlider] =  useState([]);
+    const [produtoscabeceira, setProdutosCabeceira] =  useState([]);
   
        useEffect(() => {   
            const getSearch = async () => {
              try {
-               const slider = await api.get('/produtos') 
-               setSlider(slider.data);
+               const produtoscabeceira = await api.get('/produtos-cabeceira') 
+               setProdutosCabeceira(produtoscabeceira.data);
               } catch (error){
                 console.log(error);
               }}
@@ -20,11 +20,13 @@ function Teste () {
        }, [])
 
     return(
-        <div>
-            {slider.map((produtos) =>(
-                <Test produtos={produtos} key={produtos.id}/>
+        <>
+        <section className="sec">
+            {produtoscabeceira.map((produtoscabeceira) =>(
+                <Test produtoscabeceira={produtoscabeceira} key={produtoscabeceira.id}/>
             ) )}
-        </div>
+        </section>
+        </>
     )
 }
 

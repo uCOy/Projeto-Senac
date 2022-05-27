@@ -32,19 +32,19 @@ const Produtos = () => {
             <figure>
               <img src={poltrona1} alt="Todas poltronas" />
               <figcaption>
-                DESCRIÇÃO1
+                Poltrona, Acento fixo - Tecido de Corvino Preto (70CM Largura  80CM Profundidade  80CM Altura)
               </figcaption>
             </figure>
             <figure>
               <img src={poltrona2} alt="Todas poltronas" />
               <figcaption>
-                DESCRIÇÃO2
+              Poltrona "Sofá", Almofada solta - Tecido Linho Cinza (70CM Largura  80CM Profundidade  80CM Altura)
               </figcaption>
             </figure>
             <figure>
               <img src={poltrona3} alt="Todas poltronas" />
               <figcaption>
-                DESCRIÇÃO3
+              Poltrona, Braços de alumínio - Tecido Florido (50CM Largura  80CM Profundidade  80CM Altura)
               </figcaption>
             </figure>
             <figure>
@@ -61,25 +61,25 @@ const Produtos = () => {
               <figure>
                 <img src={cabeceira1} alt="As cabeceiras" />
                 <figcaption>
-                  DESCRIÇÃO5
+                Cabeceira - Tecido Corvino Preto (1.38M Largura  13CM Profundidade  1.20M Altura)
                 </figcaption>
               </figure>
               <figure>
                 <img src={cabeceira2} alt="As cabeceiras" />
                 <figcaption>
-                  DESCRIÇÃO6
+                Cabeceira, Painel - Tecido Linho Branco (1.38M Largura  4CM Profundidade  70CM Altura)
                 </figcaption>
               </figure>
               <figure>
                 <img src={cabeceira3} alt="As cabeceiras" />
                 <figcaption>
-                  DESCRIÇÃO7
+                Cabeceira, Painel com Futon - Tecido Veludo Cinza (1.38M Largura  4CM Profundidade  70CM Altura)
                 </figcaption>
               </figure>
               <figure>
                 <img src={cabeceira4} alt="As cabeceiras" />
                 <figcaption>
-                  DESCRIÇÃO8
+                Cabeceira "Capitonê" - Tecido Linho Bege (1.38M Largura  13CM Profundidade  1.20M Altura)
                 </figcaption>
               </figure>
               </section>
@@ -90,25 +90,25 @@ const Produtos = () => {
                 <figure>
                   <img src={puff1} alt="Todos puffs" />
                   <figcaption>
-                    DESCRIÇÃO9
+                  Puff, Quadrado - Tecido Corvinho Preto (35CM Largura  35CM Profundidade  35CM Altura)
                   </figcaption>
                 </figure>
                 <figure>
                   <img src={puff2} alt="Todos puffso" />
                   <figcaption>
-                    DESCRIÇÃO10
+                  Puff, Redondo - Tecido Pelego Preto (40CM Altura)
                   </figcaption>
                 </figure>
                 <figure>
                   <img src={puff3} alt="Todos puffso" />
                   <figcaption>
-                    DESCRIÇÃO11
+                  Puff, Redondo com Capitonê - Tecido Corvinho Cinza (35CM Altura)
                   </figcaption>
                 </figure>
                 <figure>
                   <img src={puff4} alt="Todos puffso" />
                   <figcaption>
-                    DESCRIÇÃO12
+                    Puff "Banqueta", Pé Palito - Tecido Veludo Cinza (40CM Largura  35CM Profundidade  35CM Altura)
                   </figcaption>
                 </figure>
                 </section>

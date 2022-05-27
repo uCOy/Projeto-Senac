@@ -534,30 +534,46 @@
   }
 }
 
+@media only screen and (max-width: 1120px) {
+  .maps {
+    width: 400px;
+  }
+
+  .alinhadiv1 {
+    width: auto;
+  }
+}
+
 @media only screen and (max-width: 1000px) {
   .maps {
     width: 400px;
+  }
+
+  .alinhadiv1 {
+    width: auto;
   }
 }
 
 @media only screen and (max-width: 912px) {
   .maps {
-    width: 400px;
+    width: 100%;
+    justify-content: center;
   }
   .alinhamento {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    justify-content: center;
     height: 100%;
   }
   .alinhadiv1 {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-
-    margin-left: 228px;
-    margin-right: 228px;
+    width: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    /* padding-right: 128px;
+    padding-left: 128px; */
   }
   .alinhadiv2 {
     display: flex;
@@ -581,7 +597,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-
+    width: auto;
     margin-left: 205px;
     margin-right: 205px;
   }
@@ -630,6 +646,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    width: auto;
     margin-left: 192px;
     margin-right: 192px;
   }
@@ -795,7 +812,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-
+    width: auto;
     margin-left: 135px;
     margin-right: 135px;
   }
@@ -1050,6 +1067,7 @@
   }
 
   .alinhadiv1 {
+    width: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
