@@ -1,8 +1,8 @@
 import React, {useState,useEffect} from 'react';
-import api from '../Services/api';
-import Test from './Produtos-test';
+import api from '../../Services/api';
+import Cabeceira from './Chaise';
 
-function Teste () {
+function ProdutosCabeceiras () {
 
 
     const [produtoscabeceira, setProdutosCabeceira] =  useState([]);
@@ -21,13 +21,20 @@ function Teste () {
 
     return(
         <>
+          <div>
+            <h1 class="titulo-product">Produtos</h1>
+          </div>
+          <div>
+            <h1 class="titulo-products">Cabeceiras</h1>
+          </div>
         <section className="sec">
+          
             {produtoscabeceira.map((produtoscabeceira) =>(
-                <Test produtoscabeceira={produtoscabeceira} key={produtoscabeceira.id}/>
+                <Cabeceira produtoscabeceira={produtoscabeceira} key={produtoscabeceira.id}/>
             ) )}
         </section>
         </>
     )
 }
 
-export default Teste
+export default ProdutosCabeceiras

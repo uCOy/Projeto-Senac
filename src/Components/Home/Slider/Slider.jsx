@@ -27,6 +27,7 @@ const Slider = () => {
   return (
   <div className="slider-content">
     <p className="p-title-slider">Venha Conferir nossos Produtos</p>
+    <a href="https://api.whatsapp.com/send/?phone=%2B5519981562567&text&app_absent=0">
     <Swiper
       modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
       spaceBetween={1}
@@ -43,6 +44,7 @@ const Slider = () => {
               <SwiperSlide><img className="slider-image" src={slider.url}/></SwiperSlide>
     ) )}  
     </Swiper>
+    </a>
     <p className="p-title-slider">Temos Cabeceiras e Poltronas</p>
   </div>
   )
