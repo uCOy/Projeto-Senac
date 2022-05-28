@@ -1,12 +1,16 @@
 import React from 'react';
-import CorpoSofa from '../../Components/Sofas/CorpoSofa/Sofa';
-import SofasRetratil from '../../Components/Sofas/CorpoSofa/Retratil/RetratilApi';
+import SofasRetratil from '../../Components/Sofas/Retratil/RetratilApi';
+import SofasLugares from '../../Components/Sofas/2-3-Lugares/2-3-LugaresApi';
+import SofasCanto from '../../Components/Sofas/Canto/CantoApi';
+import SofasChaise from '../../Components/Sofas/Chaise/ChaiseApi';
 
 function PagesSofas () {
     return(
         <div>
             <SofasRetratil/>
-            <CorpoSofa/>
+            <SofasLugares/>
+            <SofasCanto/>
+            <SofasChaise/>
         </div>
     )
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import imgSobre from './Img/img_sobre.jpeg';
+import imgSobre from '../../assets/images/ImagemSobre.jpeg';
 import './CssSobre.css';
 import './Responsive.css';
 
