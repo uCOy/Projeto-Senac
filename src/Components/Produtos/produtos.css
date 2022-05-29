@@ -159,6 +159,22 @@ figure{
   }
   }
 
+  @media (max-width: 534px){
+    .titulo-products {
+      font-size: 30px;
+    }
+
+    .titulo-productss{
+      font-size: 30px;
+    }
+
+    .titulo-product {
+      font-size: 40px;
+    }
+    
+  }
+
+
   @media (max-width: 531px){
     .imagess{
         width: 220px;
@@ -365,5 +381,15 @@ figure{
     width:  260px;
     max-width: 100%;
   }
+    
+  }
+
+  @media (max-width: 236px){
+    .titulo-products {
+      font-size: 20px;
+    }
+    .titulo-product{
+      font-size: 30px;
+    }
     
   }

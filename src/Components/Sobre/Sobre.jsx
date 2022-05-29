@@ -7,7 +7,7 @@ function Sobre() {
     return (
       <div >
        <header class="body-sobre" > 
-        <h2 class="title-sobre">Conheça nossa história</h2>                                                                
+        <h2 class="title-sobre">Conheça Nossa História</h2>                                                                
         <nav class="nav-sobre"> 
          <img class="img-sobre" src={imgSobre} alt="Ilustração"/>    
           <section class="section-sobre">          

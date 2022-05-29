@@ -14,14 +14,9 @@
     flex-direction: row;
 }
 
-/*---------------------------------------------------------- logo-header */
-
 .logo-header{
     width: 115px;
 }
-
-/* --------------------------------------------------------- Body do Menu */
-
 
 .ul-menu-header {
     list-style: none;
@@ -31,33 +26,35 @@
     margin:0px;
 }
 
-.li-menu {
-    padding: 0 20px;
-    font-family: "Raleway";
-}
-
-.p-space-menu{
-    padding-top:10px;
+.menu-link{
     height: 54px;
-    margin: 0px;
-}
-
-.li-text-menu{
-    color: rgb(0, 0, 0);
-    font-size: 20px;
+    display: flex;
+    width: 110px;
     text-decoration: none;
-    width: 100px;
-    text-transform:capitalize;
+    font-family: 'Raleway';
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-left: 0px;
 }
 
 
+.menu-link:hover{
+    color: rgba(82, 76, 76, 0.836);
+    background-color: rgba(27, 31, 34, 0.068);
 
-.li-text-menu:hover{
-    color: rgb(0, 0, 0);
 }
 
+@media (max-width: 714px) {
+    .menu-link{
+        width: 100%;
+        height: 84px;
+        margin-left: 0px;
+    }
 
-/* LH,LIH = Li do Header */
+}
 
 /* -------------------------------------------------------------------- Botão */
 
@@ -70,17 +67,6 @@
     right: 10px;
     top: 10px;
     display: none;
-}
-
-/* .li-menu:hover,
-.button-menu-header:hover {
-    cursor: pointer;
-    opacity: 0.8;
-    background-color: rgba(27, 31, 34, 0.068);
-} */
-
-.li-text-menu:hover{
-    color: rgba(82, 76, 76, 0.836);
 }
 
 .button-menu-header:focus~.ul-menu-header {
@@ -115,44 +101,8 @@
         margin-right:15px;
     }
 
-    .li-menu,
     .ul-menu-header {
         width: 100%;
-    }
-
-    .li-menu:hover,
-    .button-menu-header:hover {
-    cursor: pointer;
-    opacity: 0.8;
-    background-color: rgba(202, 202, 202, 0.24);
-}
-}
-
-@media (max-width: 760px) {
-
-    .li-menu{
-        padding: 18px;
-    }
-}
-
-@media (max-width: 750px) {
-
-    .li-menu{
-        padding: 16px;
-    }
-}
-
-@media (max-width: 740px) {
-
-    .li-menu{
-        padding: 14px;
-    }
-}
-
-@media (max-width: 730px) {
-
-    .li-menu{
-        padding: 12px;
     }
 }
 
@@ -162,9 +112,6 @@
         padding-left: 10px;
         padding-right: 10px;
     }
-}
-
-@media (max-width: 319px) {
 
     .button-menu-header {
         margin-right:0px;
