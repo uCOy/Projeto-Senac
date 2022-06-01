@@ -1,7 +1,4 @@
 /* ------------------------------------------------- Responsividade */
-@media only screen and (max-width: 1600px) {
-}
-
 @media only screen and (max-width: 1440px) {
   .fundo-img {
     width: 100%;
@@ -13,38 +10,7 @@
     background-size: cover;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.555);
   }
-  .h1-header {
-    text-align: center;
-    font-family: "Raleway", sans-serif;
-    text-transform: inherit;
-    padding: 30px 0 0;
-    color: rgb(0, 0, 0);
-    animation: text 2s 1;
-  }
-  @keyframes text {
-    0% {
-      color: white;
-      margin-bottom: -10px;
-    }
-    30% {
-      letter-spacing: 10px;
-      margin-bottom: -10px;
-    }
-  }
-  .paragrafo ul li {
-    list-style: none;
-    text-align: center;
-    font-style: italic;
-    color: rgb(0, 0, 0);
-    font-family: "Open Sans", sans-serif;
-    animation: text1 2s 1;
-  }
-  @keyframes text1 {
-    0% {
-      color: white;
-      margin-bottom: -40px;
-    }
-  }
+
   .alinhamento {
     display: flex;
     justify-content: space-between;
@@ -82,12 +48,8 @@
     border: 1px solid rgba(0, 0, 0, 0.795);
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.308);
   }
-  .botao:hover {
-    color: #f88f06;
-    border-color: #f88f06;
-  }
   #form {
-    padding: 0 100px 0 10px;
+    padding: 5px 0px 5px 25px;
     margin-right: 50px;
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.795);
@@ -121,57 +83,36 @@
   }
 
   .dados-corpo a {
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.705);
     text-decoration: none;
   }
   .dados-corpo a:hover {
     text-decoration: none;
-    color: #f88f06;
   }
   .horarios-corpo {
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     margin-bottom: 35px;
   }
   .horarios-corpo a {
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     text-decoration: none;
   }
   .horarios-corpo a:hover {
     text-decoration: none;
-    color: #f88f06;
   }
   .endereco-corpo {
     margin-bottom: 35px;
   }
   .endereco-corpo a {
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     text-decoration: none;
   }
   .endereco-corpo a:hover {
     text-decoration: underline;
-    color: #f88f06;
   }
   .h2-corpo-contato {
     color: rgba(3, 3, 3, 0.712);
     margin-top: 35px;
-  }
-  .menu-footer-contato {
-    color: #4d4d4d;
-  }
-  .menu-footer-contato:hover {
-    color: white;
-  }
-  .sobre-footer-contato {
-    color: #4d4d4d;
-  }
-  .sobre-footer-contato:hover {
-    color: white;
-  }
-  .contato-footer-contato {
-    color: #f15939;
-  }
-  .contato-footer-contato:hover {
-    color: white;
   }
 }
 
@@ -186,38 +127,7 @@
     background-size: cover;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.555);
   }
-  .h1-header {
-    text-align: center;
-    font-family: "Raleway", sans-serif;
-    text-transform: inherit;
-    padding: 30px 0 0;
-    color: rgb(0, 0, 0);
-    animation: text 2s 1;
-  }
-  @keyframes text {
-    0% {
-      color: white;
-      margin-bottom: -10px;
-    }
-    30% {
-      letter-spacing: 10px;
-      margin-bottom: -10px;
-    }
-  }
-  .paragrafo ul li {
-    list-style: none;
-    text-align: center;
-    font-style: italic;
-    color: rgb(0, 0, 0);
-    font-family: "Open Sans", sans-serif;
-    animation: text1 2s 1;
-  }
-  @keyframes text1 {
-    0% {
-      color: white;
-      margin-bottom: -40px;
-    }
-  }
+
   .alinhamento {
     display: flex;
     justify-content: space-between;
@@ -255,12 +165,8 @@
     border: 1px solid rgba(0, 0, 0, 0.795);
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.308);
   }
-  .botao:hover {
-    color: #f88f06;
-    border-color: #f88f06;
-  }
   #form {
-    padding: 0 100px 0 10px;
+    padding: 5px 0px 5px 25px;
     margin-right: 50px;
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.795);
@@ -294,57 +200,36 @@
   }
 
   .dados-corpo a {
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     text-decoration: none;
   }
   .dados-corpo a:hover {
     text-decoration: none;
-    color: #f88f06;
   }
   .horarios-corpo {
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     margin-bottom: 35px;
   }
   .horarios-corpo a {
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     text-decoration: none;
   }
   .horarios-corpo a:hover {
     text-decoration: none;
-    color: #f88f06;
   }
   .endereco-corpo {
     margin-bottom: 35px;
   }
   .endereco-corpo a {
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     text-decoration: none;
   }
   .endereco-corpo a:hover {
     text-decoration: underline;
-    color: #f88f06;
   }
   .h2-corpo-contato {
     color: rgba(3, 3, 3, 0.712);
     margin-top: 35px;
-  }
-  .menu-footer-contato {
-    color: #4d4d4d;
-  }
-  .menu-footer-contato:hover {
-    color: white;
-  }
-  .sobre-footer-contato {
-    color: #4d4d4d;
-  }
-  .sobre-footer-contato:hover {
-    color: white;
-  }
-  .contato-footer-contato {
-    color: #f15939;
-  }
-  .contato-footer-contato:hover {
-    color: white;
   }
 }
 @media only screen and (max-width: 1120px) {
@@ -375,7 +260,7 @@
     font-family: "Raleway", sans-serif;
     text-transform: inherit;
     padding: 10px 0 0;
-    color: rgb(0, 0, 0);
+    color: rgba(82, 76, 76, 0.836);
     animation: text 2s 1;
   }
   @keyframes text {
@@ -391,9 +276,8 @@
   .paragrafo ul li {
     list-style: none;
     text-align: center;
-    font-style: italic;
-    color: rgb(0, 0, 0);
-    font-family: "Open Sans", sans-serif;
+    color: rgba(82, 76, 76, 0.836);
+    font-family: "Raleway", sans-serif;
     animation: text1 2s 1;
   }
   @keyframes text1 {
@@ -441,12 +325,8 @@
     border: 1px solid rgba(0, 0, 0, 0.795);
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.308);
   }
-  .botao:hover {
-    color: #f88f06;
-    border-color: #f88f06;
-  }
   #form {
-    padding: 0 100px 0 10px;
+    padding: 5px 0px 5px 25px;
     margin-right: 50px;
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.795);
@@ -480,57 +360,36 @@
   }
 
   .dados-corpo a {
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     text-decoration: none;
   }
   .dados-corpo a:hover {
     text-decoration: none;
-    color: #f88f06;
   }
   .horarios-corpo {
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     margin-bottom: 35px;
   }
   .horarios-corpo a {
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     text-decoration: none;
   }
   .horarios-corpo a:hover {
     text-decoration: none;
-    color: #f88f06;
   }
   .endereco-corpo {
     margin-bottom: 35px;
   }
   .endereco-corpo a {
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     text-decoration: none;
   }
   .endereco-corpo a:hover {
     text-decoration: underline;
-    color: #f88f06;
   }
   .h2-corpo-contato {
     color: rgba(3, 3, 3, 0.712);
     margin-top: 35px;
-  }
-  .menu-footer-contato {
-    color: #4d4d4d;
-  }
-  .menu-footer-contato:hover {
-    color: white;
-  }
-  .sobre-footer-contato {
-    color: #4d4d4d;
-  }
-  .sobre-footer-contato:hover {
-    color: white;
-  }
-  .contato-footer-contato {
-    color: #f15939;
-  }
-  .contato-footer-contato:hover {
-    color: white;
   }
 }
 
@@ -677,12 +536,8 @@
     border: 1px solid rgba(0, 0, 0, 0.795);
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.308);
   }
-  .botao:hover {
-    color: #f88f06;
-    border-color: #f88f06;
-  }
   #form {
-    padding: 0 100px 0 10px;
+    padding: 5px 0px 5px 25px;
     margin-right: 50px;
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.795);
@@ -713,60 +568,39 @@
   }
 
   .dados-corpo a {
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     text-decoration: none;
     
   }
   .dados-corpo a:hover {
     text-decoration: none;
-    color: #f88f06;
   }
   .horarios-corpo {
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     margin-bottom: 35px;
   }
   .horarios-corpo a {
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     text-decoration: none;
     
   }
   .horarios-corpo a:hover {
     text-decoration: none;
-    color: #f88f06;
   }
   .endereco-corpo {
     margin-bottom: 35px;
   }
   .endereco-corpo a {
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     text-decoration: none;
     
   }
   .endereco-corpo a:hover {
     text-decoration: underline;
-    color: #f88f06;
   }
   .h2-corpo-contato {
     color: rgba(3, 3, 3, 0.712);
     margin-top: 35px;
-  }
-  .menu-footer-contato {
-    color: #4d4d4d;
-  }
-  .menu-footer-contato:hover {
-    color: white;
-  }
-  .sobre-footer-contato {
-    color: #4d4d4d;
-  }
-  .sobre-footer-contato:hover {
-    color: white;
-  }
-  .contato-footer-contato {
-    color: #f15939;
-  }
-  .contato-footer-contato:hover {
-    color: white;
   }
 }
 
@@ -787,7 +621,7 @@
     font-size: small;
     text-transform: inherit;
     padding: 30px 0 0;
-    color: rgb(0, 0, 0);
+    color: rgba(82, 76, 76, 0.836);
     animation: text 2s 1;
   }
   @keyframes text {
@@ -803,9 +637,8 @@
   .paragrafo ul li {
     list-style: none;
     text-align: center;
-    font-style: italic;
-    color: rgb(0, 0, 0);
-    font-family: "Open Sans", sans-serif;
+    color: rgba(82, 76, 76, 0.836);
+    font-family: "Raleway", sans-serif;
     animation: text1 2s 1;
   }
   .alinhadiv1 {
@@ -825,7 +658,7 @@
     margin-right: 105px;
   }
   #form {
-    padding: 0 100px 0 10px;
+    padding: 5px 0px 5px 25px;
     margin-right: 50px;
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.795);
@@ -855,28 +688,26 @@
   }
 
   .dados-corpo a {
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     text-decoration: none;
     
   }
   .dados-corpo a:hover {
     text-decoration: none;
-    color: #f88f06;
   }
   .horarios-corpo {
     text-align: right;
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     margin-bottom: 35px;
     margin-left: 286px;
   }
   .horarios-corpo a {
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     text-decoration: none;
     
   }
   .horarios-corpo a:hover {
     text-decoration: none;
-    color: #f88f06;
   }
   .endereco-corpo {
     margin-bottom: 35px;
@@ -884,35 +715,16 @@
     margin-right: 276px;
   }
   .endereco-corpo a {
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     text-decoration: none;
     
   }
   .endereco-corpo a:hover {
     text-decoration: underline;
-    color: #f88f06;
   }
   .h2-corpo-contato {
     color: rgba(3, 3, 3, 0.712);
     margin-top: 35px;
-  }
-  .menu-footer-contato {
-    color: #4d4d4d;
-  }
-  .menu-footer-contato:hover {
-    color: white;
-  }
-  .sobre-footer-contato {
-    color: #4d4d4d;
-  }
-  .sobre-footer-contato:hover {
-    color: white;
-  }
-  .contato-footer-contato {
-    color: #f15939;
-  }
-  .contato-footer-contato:hover {
-    color: white;
   }
 
   .animacao {
@@ -934,7 +746,7 @@
     font-family: "Raleway", sans-serif;
     text-transform: inherit;
     padding: 30px 0 0;
-    color: rgb(0, 0, 0);
+    color: rgba(82, 76, 76, 0.836);
     animation: text 2s 1;
   }
   @keyframes text {
@@ -950,9 +762,8 @@
   .paragrafo ul li {
     list-style: none;
     text-align: center;
-    font-style: italic;
-    color: rgb(0, 0, 0);
-    font-family: "Open Sans", sans-serif;
+    color: rgba(82, 76, 76, 0.836);
+    font-family: "Raleway", sans-serif;
     animation: text1 2s 1;
   }
   .alinhadiv2 {
@@ -977,28 +788,26 @@
     margin-right: 120px;
   }
   .dados-corpo a {
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     text-decoration: none;
     
   }
   .dados-corpo a:hover {
     text-decoration: none;
-    color: #f88f06;
   }
   .horarios-corpo {
     text-align: right;
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     margin-bottom: 35px;
     margin-left: 286px;
   }
   .horarios-corpo a {
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     text-decoration: none;
     
   }
   .horarios-corpo a:hover {
     text-decoration: none;
-    color: #f88f06;
   }
   .endereco-corpo {
     margin-bottom: 35px;
@@ -1025,7 +834,7 @@
     text-transform: inherit;
     font-size: 28px;
     padding: 90px 0 0;
-    color: rgb(0, 0, 0);
+    color: rgba(82, 76, 76, 0.836);
     animation: text 2s 1;
   }
   @keyframes text {
@@ -1041,10 +850,9 @@
   .paragrafo ul li {
     list-style: none;
     text-align: center;
-    font-style: italic;
     font-weight: 500;
-    color: rgb(0, 0, 0);
-    font-family: "Open Sans", sans-serif;
+    color: rgba(82, 76, 76, 0.836);
+    font-family: "Raleway", sans-serif;
     font-size: 19px;
     animation: text1 2s 1;
   }
@@ -1102,10 +910,6 @@
     border: 1px solid rgba(0, 0, 0, 0.795);
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.308);
   }
-  .botao:hover {
-    color: #f88f06;
-    border-color: #f88f06;
-  }
   #form {
     /* padding: 0 80px 0 80px; */
     width: 300px;
@@ -1140,63 +944,42 @@
   }
 
   .dados-corpo a {
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     text-decoration: none;
     
   }
   .dados-corpo a:hover {
     text-decoration: none;
-    color: #f88f06;
   }
   .horarios-corpo {
     text-align: right;
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     margin-bottom: 35px;
     margin-left: 126px;
   }
   .horarios-corpo a {
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     text-decoration: none;
     
   }
   .horarios-corpo a:hover {
     text-decoration: none;
-    color: #f88f06;
   }
   .endereco-corpo {
     margin-bottom: 35px;
     margin-right: 122px;
   }
   .endereco-corpo a {
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     text-decoration: none;
     
   }
   .endereco-corpo a:hover {
     text-decoration: underline;
-    color: #f88f06;
   }
   .h2-corpo-contato {
     color: rgba(3, 3, 3, 0.712);
     margin-top: 35px;
-  }
-  .menu-footer-contato {
-    color: #4d4d4d;
-  }
-  .menu-footer-contato:hover {
-    color: white;
-  }
-  .sobre-footer-contato {
-    color: #4d4d4d;
-  }
-  .sobre-footer-contato:hover {
-    color: white;
-  }
-  .contato-footer-contato {
-    color: #f15939;
-  }
-  .contato-footer-contato:hover {
-    color: white;
   }
 
   .animacao {
@@ -1250,63 +1033,42 @@
   }
 
   .dados-corpo a {
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     text-decoration: none;
     
   }
   .dados-corpo a:hover {
     text-decoration: none;
-    color: #f88f06;
   }
   .horarios-corpo {
     text-align: right;
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     margin-bottom: 35px;
     margin-left: 130px;
   }
   .horarios-corpo a {
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     text-decoration: none;
     
   }
   .horarios-corpo a:hover {
     text-decoration: none;
-    color: #f88f06;
   }
   .endereco-corpo {
     margin-bottom: 35px;
     margin-right: 130px;
   }
   .endereco-corpo a {
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     text-decoration: none;
     
   }
   .endereco-corpo a:hover {
     text-decoration: underline;
-    color: #f88f06;
   }
   .h2-corpo-contato {
     color: rgba(3, 3, 3, 0.712);
     margin-top: 35px;
-  }
-  .menu-footer-contato {
-    color: #4d4d4d;
-  }
-  .menu-footer-contato:hover {
-    color: white;
-  }
-  .sobre-footer-contato {
-    color: #4d4d4d;
-  }
-  .sobre-footer-contato:hover {
-    color: white;
-  }
-  .contato-footer-contato {
-    color: #f15939;
-  }
-  .contato-footer-contato:hover {
-    color: white;
   }
 
   .animacao {
@@ -1323,13 +1085,21 @@
 }
 
 @media only screen and (max-width: 375px) {
+  .fundo-img {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.555);
+    width: 100%;
+  }
+  .footer-site{
+    background-color: #000000;
+    width: 105%;
+}
   .h1-header {
     text-align: center;
     font-family: "Raleway", sans-serif;
     text-transform: inherit;
     font-size: 20px;
     padding: 90px 0 0;
-    color: rgb(0, 0, 0);
+    color: rgba(82, 76, 76, 0.836);
     animation: text 2s 1;
   }
   @keyframes text {
@@ -1345,10 +1115,9 @@
   .paragrafo ul li {
     list-style: none;
     text-align: center;
-    font-style: italic;
     font-weight: 500;
-    color: rgb(0, 0, 0);
-    font-family: "Open Sans", sans-serif;
+    color: rgba(82, 76, 76, 0.836);
+    font-family: "Raleway", sans-serif;
     font-size: 15px;
     animation: text1 2s 1;
   }
@@ -1379,63 +1148,42 @@
   }
 
   .dados-corpo a {
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     text-decoration: none;
     
   }
   .dados-corpo a:hover {
     text-decoration: none;
-    color: #f88f06;
   }
   .horarios-corpo {
     text-align: right;
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     margin-bottom: 35px;
     margin-left: 132px;
   }
   .horarios-corpo a {
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     text-decoration: none;
     
   }
   .horarios-corpo a:hover {
     text-decoration: none;
-    color: #f88f06;
   }
   .endereco-corpo {
     margin-bottom: 35px;
     margin-right: 128px;
   }
   .endereco-corpo a {
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     text-decoration: none;
     
   }
   .endereco-corpo a:hover {
     text-decoration: underline;
-    color: #f88f06;
   }
   .h2-corpo-contato {
     color: rgba(3, 3, 3, 0.712);
     margin-top: 35px;
-  }
-  .menu-footer-contato {
-    color: #4d4d4d;
-  }
-  .menu-footer-contato:hover {
-    color: white;
-  }
-  .sobre-footer-contato {
-    color: #4d4d4d;
-  }
-  .sobre-footer-contato:hover {
-    color: white;
-  }
-  .contato-footer-contato {
-    color: #f15939;
-  }
-  .contato-footer-contato:hover {
-    color: white;
   }
 
   .animacao {
@@ -1451,8 +1199,8 @@
   }
 }
 
-@media only screen and (max-width: 360px) {
-  .dados-corpo {
+@media only screen and (max-width: 360px){
+  .dados-corpo{
     margin-bottom: 35px;
     margin-left: 0px;
     margin-right: 0px;
@@ -1467,7 +1215,7 @@
     font-size: 28px;
     padding: 80px 0 0;
     margin-left: 18px;
-    color: rgb(0, 0, 0);
+    color: rgba(82, 76, 76, 0.836);
     animation: text 2s 1;
   }
   @keyframes text {
@@ -1495,63 +1243,42 @@
   }
 
   .dados-corpo a {
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     text-decoration: none;
     
   }
   .dados-corpo a:hover {
     text-decoration: none;
-    color: #f88f06;
   }
   .horarios-corpo {
     text-align: right;
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     margin-bottom: 35px;
     margin-left: 150px;
   }
   .horarios-corpo a {
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     text-decoration: none;
     
   }
   .horarios-corpo a:hover {
     text-decoration: none;
-    color: #f88f06;
   }
   .endereco-corpo {
     margin-bottom: 35px;
     margin-right: 120px;
   }
   .endereco-corpo a {
-    color: rgba(0, 0, 0, 0.644);
+    color: rgba(0, 0, 0, 0.822);
     text-decoration: none;
     
   }
   .endereco-corpo a:hover {
     text-decoration: underline;
-    color: #f88f06;
   }
   .h2-corpo-contato {
     color: rgba(3, 3, 3, 0.712);
     margin-top: 35px;
-  }
-  .menu-footer-contato {
-    color: #4d4d4d;
-  }
-  .menu-footer-contato:hover {
-    color: white;
-  }
-  .sobre-footer-contato {
-    color: #4d4d4d;
-  }
-  .sobre-footer-contato:hover {
-    color: white;
-  }
-  .contato-footer-contato {
-    color: #f15939;
-  }
-  .contato-footer-contato:hover {
-    color: white;
   }
 
   .animacao {

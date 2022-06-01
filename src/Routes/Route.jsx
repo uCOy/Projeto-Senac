@@ -16,10 +16,10 @@ const Root = () => {
     <Router>
       <Routes>
         <Route path="/" element={<PagesIndex/>} />
-        <Route path="/Contato" element={<PagesContatos/>} />
-        <Route path="/Sobre" element={<PagesSobre/>} />
-        <Route path="/Sofa" element={<PagesSofas/>} />
-        <Route path="/Produtos" element={<PagesProdutos/>} />
+        <Route path="/contato" element={<PagesContatos/>} />
+        <Route path="/sobre" element={<PagesSobre/>} />
+        <Route path="/sofa" element={<PagesSofas/>} />
+        <Route path="/produtos" element={<PagesProdutos/>} />
       </Routes>
     </Router>
   );

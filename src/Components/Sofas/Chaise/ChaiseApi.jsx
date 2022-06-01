@@ -22,7 +22,7 @@ function SofasChaise () {
     return(
         <>
           <div>
-            <h1 class="titulo-sofas">Sofá chaise</h1>
+            <h1 class="titulo-sofas">Sofá Chaise</h1>
           </div>
         <section className="section-api-sofas">
           

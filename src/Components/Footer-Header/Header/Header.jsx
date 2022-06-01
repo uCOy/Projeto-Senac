@@ -12,10 +12,10 @@ function Header(){
                     </div>
                     <button className="button-menu-header">&#9776;</button>
                     <ul className="ul-menu-header">
-                        <a href="/Sobre" className='menu-link'>Sobre Nós</a>
-                        <a href="/Sofa" className='menu-link'>Sofás</a>   
-                        <a href="/Produtos" className='menu-link'>Produtos</a>   
-                        <a href="/Contato" className='menu-link'>Contato</a>      
+                        <a href="/sobre" className='menu-link'>Sobre Nós</a>
+                        <a href="/sofa" className='menu-link'>Sofás</a>   
+                        <a href="/produtos" className='menu-link'>Produtos</a>   
+                        <a href="/contato" className='menu-link'>Contato</a>      
                     </ul>
                 </nav>
             </header>

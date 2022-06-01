@@ -1,6 +1,7 @@
 import React, {useState,useEffect} from 'react';
 import api from '../../Services/api';
 import Retratil from './Retratil';
+import IMG from '../../../assets/images/Sofa-retratil.jpeg'
 
 function SofasRetratil () {
 
@@ -27,6 +28,7 @@ function SofasRetratil () {
           <div>
             <h1 class="titulo-sofas">Sofá Retrátil</h1>
           </div>
+
         <section className="section-api-sofas">
           
             {sofasretratil.map((sofasretratil) =>(
